@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Fanny Winblad" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fashion" />
+    <title>Svart T-shirt</title>
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/product-details.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <div>
+          <input type="checkbox" class="menu-toggle" id="menu-toggle" />
+          <label class="hamburger-menu" for="menu-toggle">
+            <a class="material-symbols-outlined icon-button">drag_handle</a>
+          </label>
+          <div id="menuOverlay" class="menu-overlay"></div>
+          <div id="menuContent" class="menu-content">
+            <div>
+              <a class="font-size-medium font-weight-light link" href="#"
+                >Kategorier</a
+              >
+              <a class="font-size-medium font-weight-light link" href="#"
+                >Nyheter</a
+              >
+              <a class="font-size-medium font-weight-light link" href="#"
+                >Topplista</a
+              >
+              <a class="font-size-medium font-weight-light link" href="#"
+                >Rea</a
+              >
+              <a class="font-size-medium font-weight-light link" href="#"
+                >Kampanjer</a
+              >
+            </div>
+            <div
+              class="close-button-left"
+              onclick="document.getElementById('menu-toggle').checked = false;"
+            >
+              &times;
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <div>
+          <input type="checkbox" class="search-toggle" id="search-toggle" />
+          <label class="search-menu" for="search-toggle">
+            <a class="material-symbols-outlined header icon-button"> search </a>
+          </label>
+          <div id="searchOverlay" class="search-overlay"></div>
+          <div id="searchContent" class="search-content">
+            <div>
+              <form class="search-form">
+                <span class="material-symbols-outlined"> search </span>
+                <input type="text" placeholder="Sök..." class="search-input" />
+              </form>
+            </div>
+            <div
+              class="close-button-right"
+              onclick="document.getElementById('search-toggle').checked = false;"
+            >
+              &times;
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href=""><span class="material-symbols-outlined"> person </span></a>
+        </div>
+        <div>
+          <a href=""
+            ><span class="material-symbols-outlined"> favorite </span></a
+          >
+        </div>
+        <div>
+          <a href=""
+            ><span class="material-symbols-outlined"> shopping_bag </span></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="slider-container">
+        <div class="slide">
+          <img src="/images/Frame 1 (3).svg" alt="Fashion Collection 1" />
+        </div>
+        <div class="slide">
+          <img src="/images/Frame 1 (3).svg" alt="Fashion Collection 1" />
+        </div>
+        <div class="slide">
+          <img src="/images/Frame 1 (3).svg" alt="Fashion Collection 1" />
+        </div>
+        <div class="slide">
+          <img src="/images/Frame 1 (3).svg" alt="Fashion Collection 1" />
+        </div>
+        <div class="slide">
+          <img src="/images/Frame 1 (3).svg" alt="Fashion Collection 1" />
+        </div>
+      </div>
+      <div class="product-box">
+        <!-- Flytta slider-container hit -->
+
+        <div class="image-section">
+          <img src="/images/Frame 1 (3).svg" alt="Fashion Item" />
+          <img src="/images/Frame 1 (3).svg" alt="Fashion Item" />
+          <img src="/images/Frame 1 (3).svg" alt="Fashion Item" />
+          <img src="/images/Frame 1 (3).svg" alt="Fashion Item" />
+          <img src="/images/Frame 1 (3).svg" alt="Fashion Item" />
+        </div>
+
+        <div class="text-section">
+          <h1 class="font-size-medium font-weight-bold">
+            <span>Lorem impsum dolor</span><span>199 kr</span>
+          </h1>
+          <div class="size-buttons">
+            <button class="font-size-small font-weight-medium">xs</button>
+            <button class="font-size-small font-weight-medium">s</button>
+            <button class="font-size-small font-weight-medium">m</button>
+            <button class="font-size-small font-weight-medium">l</button>
+            <button class="font-size-small font-weight-medium">xl</button>
+          </div>
+          <div class="add-button">
+            <button class="font-size-small font-size-medium">
+              Lägg i varukorg
+            </button>
+          </div>
+
+          <div class="summery-container">
+            <details>
+              <summary class="font-size-small font-weight-bold">
+                Beskrivning och passform
+              </summary>
+              <p class="font-size-small font-weight-medium">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                est modi, vitae aut voluptatum cupiditate praesentium magnam
+                nesciunt sed exercitationem!
+              </p>
+            </details>
+
+            <details>
+              <summary class="font-size-small font-weight-bold">
+                Material
+              </summary>
+              <p class="font-size-small font-weight-medium">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                dolore consequatur sequi quis ipsum maiores quas, obcaecati
+                repudiandae reprehenderit necessitatibus!
+              </p>
+            </details>
+
+            <details>
+              <summary class="font-size-small font-weight-bold">
+                Skötselråd
+              </summary>
+              <p class="font-size-small font-weight-medium">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+                corrupti non architecto omnis, illo quam perferendis esse rem
+                quia maxime?
+              </p>
+            </details>
+
+            <details>
+              <summary class="font-size-small font-weight-bold">
+                Leverans och betalning
+              </summary>
+              <p class="font-size-small font-weight-medium">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aperiam accusamus blanditiis enim, laborum quae incidunt. Iure
+                quibusdam recusandae molestiae similique!
+              </p>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <section class="slideshow">
+        <div>
+          <h2 class="font-size-medium font-weight-bold">Liknande produkter</h2>
+        </div>
+
+        <!-- Slideshow -->
+
+        <div class="slideshow-controls">
+          <button class="prev-slide" onclick="moveSlide(-1)">&lsaquo;</button>
+          <button class="next-slide" onclick="moveSlide(1)">&rsaquo;</button>
+        </div>
+
+        <div class="slideshow-container">
+          <div class="product-list">
+            <!-- Produkt 1 -->
+            <div class="product-card">
+              <a href="">
+                <div class="image-container">
+                  <img
+                    src="/images/Frame 1 (3).svg"
+                    alt="Fashion Collection 1"
+                  />
+                  <div class="icon-container">
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                </div>
+                <div class="product-info">
+                  <p class="font-size-small font-weight-bold">T-shirt</p>
+                  <p class="font-size-small font-weight-regular">199 kr</p>
+                </div>
+                <div>
+                  <p class="font-size-small font-weight-regular">Lorem</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- Produkt 2 -->
+            <div class="product-card">
+              <a href="">
+                <div class="image-container">
+                  <img
+                    src="/images/Frame 1 (3).svg"
+                    alt="Fashion Collection 1"
+                  />
+                  <div class="icon-container">
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                </div>
+                <div class="product-info">
+                  <p class="font-size-small font-weight-bold">T-shirt</p>
+                  <p class="font-size-small font-weight-regular">199 kr</p>
+                </div>
+                <div>
+                  <p class="font-size-small font-weight-regular">Lorem</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- Produkt 3 -->
+            <div class="product-card">
+              <a href="">
+                <div class="image-container">
+                  <img
+                    src="/images/Frame 1 (3).svg"
+                    alt="Fashion Collection 1"
+                  />
+                  <div class="icon-container">
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                </div>
+                <div class="product-info">
+                  <p class="font-size-small font-weight-bold">T-shirt</p>
+                  <p class="font-size-small font-weight-regular">199 kr</p>
+                </div>
+                <div>
+                  <p class="font-size-small font-weight-regular">Lorem</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- Produkt 4 -->
+            <div class="product-card">
+              <a href="">
+                <div class="image-container">
+                  <img
+                    src="/images/Frame 1 (3).svg"
+                    alt="Fashion Collection 1"
+                  />
+                  <div class="icon-container">
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                </div>
+                <div class="product-info">
+                  <p class="font-size-small font-weight-bold">T-shirt</p>
+                  <p class="font-size-small font-weight-regular">199 kr</p>
+                </div>
+                <div>
+                  <p class="font-size-small font-weight-regular">Lorem</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="product-card">
+              <a href="">
+                <div class="image-container">
+                  <img
+                    src="/images/Frame 1 (3).svg"
+                    alt="Fashion Collection 1"
+                  />
+                  <div class="icon-container">
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                </div>
+                <div class="product-info">
+                  <p class="font-size-small font-weight-bold">T-shirt</p>
+                  <p class="font-size-small font-weight-regular">199 kr</p>
+                </div>
+                <div>
+                  <p class="font-size-small font-weight-regular">Lorem</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="product-card">
+              <a href="">
+                <div class="image-container">
+                  <img
+                    src="/images/Frame 1 (3).svg"
+                    alt="Fashion Collection 1"
+                  />
+                  <div class="icon-container">
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                </div>
+                <div class="product-info">
+                  <p class="font-size-small font-weight-bold">T-shirt</p>
+                  <p class="font-size-small font-weight-regular">199 kr</p>
+                </div>
+                <div>
+                  <p class="font-size-small font-weight-regular">Lorem</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="product-card">
+              <a href="">
+                <div class="image-container">
+                  <img
+                    src="/images/Frame 1 (3).svg"
+                    alt="Fashion Collection 1"
+                  />
+                  <div class="icon-container">
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                </div>
+                <div class="product-info">
+                  <p class="font-size-small font-weight-bold">T-shirt</p>
+                  <p class="font-size-small font-weight-regular">199 kr</p>
+                </div>
+                <div>
+                  <p class="font-size-small font-weight-regular">Lorem</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="product-card">
+              <a href="">
+                <div class="image-container">
+                  <img
+                    src="/images/Frame 1 (3).svg"
+                    alt="Fashion Collection 1"
+                  />
+                  <div class="icon-container">
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                </div>
+                <div class="product-info">
+                  <p class="font-size-small font-weight-bold">T-shirt</p>
+                  <p class="font-size-small font-weight-regular">199 kr</p>
+                </div>
+                <div>
+                  <p class="font-size-small font-weight-regular">Lorem</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <section class="footer-section">
+          <div class="footer-column">
+            <h3 class="font-size-medium font-weight-light text-white">
+              Freaky Fashion
+            </h3>
+            <a href="#" class="font-size-small font-weight-light text-white"
+              >Om oss</a
+            >
+            <a href="#" class="font-size-small font-weight-light text-white"
+              >Vårt ansvar</a
+            >
+            <a href="#" class="font-size-small font-weight-light text-white"
+              >Nyhetsbrev</a
+            >
+          </div>
+          <div class="footer-column">
+            <h3 class="font-size-medium font-weight-light text-white">Hjälp</h3>
+            <a href="#" class="font-size-small font-weight-light text-white"
+              >Kundservice</a
+            >
+            <a href="#" class="font-size-small font-weight-light text-white"
+              >FAQ</a
+            >
+            <a href="#" class="font-size-small font-weight-light text-white"
+              >Retur</a
+            >
+          </div>
+          <div class="footer-column">
+            <h3 class="font-size-medium font-weight-light text-white">
+              Juridiskt
+            </h3>
+            <a href="#" class="font-size-small font-weight-light text-white"
+              >Cookies</a
+            >
+            <a href="#" class="font-size-small font-weight-light text-white"
+              >Integritetspolicy</a
+            >
+            <a href="#" class="font-size-small font-weight-light text-white"
+              >Allmänna villkor</a
+            >
+          </div>
+          <div class="social-media">
+            <div>
+              <a
+                href="#"
+                class="font-size-medium font-weight-light text-white link"
+                >Facebook</a
+              >
+              <a
+                href="#"
+                class="font-size-medium font-weight-light text-white link"
+                >Instagram</a
+              >
+            </div>
+          </div>
+        </section>
+        <section>
+          <p class="font-size-small font-weight-light text-white">
+            &#169; Freaky Fashion
+          </p>
+        </section>
+      </footer>
+
+      <section class="accordion-section">
+        <div class="accordion">
+          <input type="checkbox" id="accordion-1" class="accordion-checkbox" />
+          <label class="accordion-label" for="accordion-1">
+            <span class="font-size-small font-weight-bold">Freaky Fashion</span>
+            <img src="/images/chevron-compact-down.svg" alt="Arrow Down" />
+          </label>
+          <div class="accordion-content">
+            <a href="#" class="font-size-small font-weight-medium">Om oss</a>
+            <a href="#" class="font-size-small font-weight-medium"
+              >Vårt ansvar</a
+            >
+            <a href="#" class="font-size-small font-weight-medium"
+              >Nyhetsbrev</a
+            >
+          </div>
+        </div>
+
+        <div class="accordion">
+          <input type="checkbox" id="accordion-2" class="accordion-checkbox" />
+          <label class="accordion-label" for="accordion-2">
+            <span class="font-size-small font-weight-bold">Hjälp</span>
+            <img src="/images/chevron-compact-down.svg" alt="Arrow Down" />
+          </label>
+          <div class="accordion-content">
+            <a href="#" class="font-size-small font-weight-medium"
+              >Kundservice</a
+            >
+            <a href="#" class="font-size-small font-weight-medium">FAQ</a>
+            <a href="#" class="font-size-small font-weight-medium">Retur</a>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <input type="checkbox" id="accordion-3" class="accordion-checkbox" />
+          <label class="accordion-label" for="accordion-3">
+            <span class="font-size-small font-weight-bold">Juridiskt</span>
+            <img src="/images/chevron-compact-down.svg" alt="Arrow Down" />
+          </label>
+          <div class="accordion-content">
+            <a href="#" class="font-size-small font-weight-medium">Cookies</a>
+            <a href="#" class="font-size-small font-weight-medium"
+              >Integritetspolicy</a
+            >
+            <a href="#" class="font-size-small font-weight-medium"
+              >Allmänna villkor</a
+            >
+          </div>
+        </div>
+
+        <div class="socials">
+          <a href="#" class="font-size-small font-weight-medium">Facebook</a>
+          <a href="#" class="font-size-small font-weight-medium">Instagram</a>
+        </div>
+
+        <div class="copyright">
+          &#169;
+          <p class="font-size-small font-weight-medium">Freaky Fashion</p>
+        </div>
+      </section>
+
+      <script>
+        // Function to move the slide
+        function moveSlide(direction) {
+          const container = document.querySelector(".slideshow-container"); // Get the container
+          const cardWidth =
+            container.querySelector(".product-card").offsetWidth; // Get width of each card
+
+          // Scroll the container by the width of one product card (multiplied by direction)
+          container.scrollBy({
+            left: cardWidth * direction,
+            behavior: "smooth", // Smooth scrolling
+          });
+        }
+      </script>
+    </main>
+  </body>
+</html>
